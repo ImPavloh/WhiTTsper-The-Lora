@@ -15,6 +15,13 @@ Este código es una demo que utiliza Whisper para el reconocimiento de voz y Goo
 - Síntesis de voz con Google Text-to-Speech
 - Interfaz gráfica con gradio
 
+## TODO
+- Conversación seguida con contexto
+- Agregar más modelos de lenguaje (ej. gpt-j-6B)
+- Usar una IA avanzada para la síntesis de voz
+- Optimizar y hacer el código compatible en distintas plataformas (ej. Windows, Linux, etc.)
+- Modificar la interfaz gráfica añadiendo configuraciones extra (ej. idioma, vista previa, ajustar la temperatura para la generación de texto, etc.)
+
 ---
 
 ## Uso
