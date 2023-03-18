@@ -34,7 +34,8 @@ Tanto si utilizas este proyecto como si has aprendido algo de él o simplemente 
 
 ---
 
-Créditos
+## Créditos
+
 Se utiliza como modelo de lenguaje [Alpaca-LoRA: Low-Rank LLaMA Instruct-Tuning](7Bhttps://github.com/tloen/alpaca-lora). El código utiliza la librería de Transformers de Hugging Face para el modelo. 
 También se utiliza la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
 La interfaz gráfica es creada utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
