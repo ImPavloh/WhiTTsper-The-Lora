@@ -1,26 +1,31 @@
-WhiTTsper the Lora
-============
-<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora" target="_blank"><img src="https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora?style=social&label=Star&maxAge=2592000" alt="Test"></a> [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing) <a href="https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a> <a href="https://twitter.com/ImPavloh" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+![Demo Preview](https://i.imgur.com/PDROk3I.png)
 
+<div align="center">
+
+<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora" target="_blank"><img src="https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora?style=social&label=Star&maxAge=2592000" alt="Test"></a> [![Google Colab Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing) <a href="https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a> <a href="https://twitter.com/ImPavloh" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+
+# WhiTTsper the Lora
 
 Demo que combina Whisper para el reconocimiento de voz y Google TTS para la síntesis de voz para interactuar junto Alpaca-LoRA.
 
-![Chat Preview](https://i.imgur.com/qq6vS1E.png)
 
----
+### Pruebalo desde **Google Colab**
+<a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://i.imgur.com/0j68Rhz.png" alt="Test" width="150"></a>
+</div>
 
 ## Características
-- Reconocimiento de voz (Whisper)
+- Reconocimiento de voz mediante Whisper
 - Modelo de lenguaje basado en LLaMa 7B
 - Síntesis de voz con Google Text-to-Speech
 - Interfaz gráfica con gradio
+- Historial de conversación
 
 ## TODO
-- Conversación seguida con contexto
 - Agregar más modelos de lenguaje (ej. gpt-j-6B)
 - Usar una IA avanzada para la síntesis de voz
 - Optimizar y hacer el código compatible en distintas plataformas (ej. Windows, Linux, etc.)
-- Modificar la interfaz gráfica añadiendo configuraciones extra (ej. idioma, vista previa, ajustar la temperatura para la generación de texto, etc.)
+- Modificar la interfaz gráfica añadiendo configuraciones extra (ej. vista previa, ajustar la temperatura para la generación de texto, botón para restablecer la conversación/historial, adjuntar imgs y reconocerlas, etc.)
+- Generación de imágenes
 
 ---
 
