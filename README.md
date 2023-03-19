@@ -1,9 +1,9 @@
 WhiTTsper the Lora
 ============
-[![GitHub Stars](https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora)](https://github.com/ImPavloh/WhiTTsper-The-Lora) [![GitHub Issues](https://img.shields.io/github/issues/ImPavloh/WhiTTsper-The-Lora)](https://github.com/ImPavloh/WhiTTsper-The-Lora) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing)
+<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora" target="_blank"><img src="https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora?style=social&label=Star&maxAge=2592000" alt="Test"></a> [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing) <a href="https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a> <a href="https://twitter.com/ImPavloh" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 
 
-Este código es una demo que utiliza Whisper para el reconocimiento de voz y Google TTS para la síntesis de voz para interactuar con la IA Alpaca-LoRA.
+Demo que combina Whisper para el reconocimiento de voz y Google TTS para la síntesis de voz para interactuar junto Alpaca-LoRA.
 
 ![Chat Preview](https://i.imgur.com/qq6vS1E.png)
 
@@ -43,7 +43,7 @@ Tanto si utilizas este proyecto como si has aprendido algo de él o simplemente 
 
 ## Créditos
 
-Se utiliza como modelo de lenguaje [Alpaca-LoRA: Low-Rank LLaMA Instruct-Tuning](7Bhttps://github.com/tloen/alpaca-lora). El código utiliza la librería de Transformers de Hugging Face para el modelo. 
+Se utiliza como modelo de lenguaje [Alpaca-LoRA](https://github.com/tloen/alpaca-lora). El código utiliza la librería de Transformers de Hugging Face para el modelo. 
 También se utiliza la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
 La interfaz gráfica es creada utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
 
