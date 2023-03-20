@@ -2,14 +2,17 @@
 
 <div align="center">
 
-<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora" target="_blank"><img src="https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora?style=social&label=Star&maxAge=2592000" alt="Test"></a> [![Google Colab Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing) <a href="https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a> <a href="https://twitter.com/ImPavloh" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora" target="_blank"><img src="https://img.shields.io/github/stars/ImPavloh/WhiTTsper-The-Lora?style=social&label=Star&maxAge=2592000" alt="Test"></a>
+[![Google Colab Demo](https://img.shields.io/badge/demo-online-green.svg)](https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing)
+<a href="https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://twitter.com/ImPavloh" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 
 # WhiTTsper the Lora
 
 Demo que combina Whisper para el reconocimiento de voz y Google TTS para la síntesis de voz para interactuar junto Alpaca-LoRA.
 
 
-### Pruebalo desde **Google Colab**
+### Pruébalo desde **Google Colab**
 <a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://i.imgur.com/0j68Rhz.png" alt="Test" width="150"></a>
 </div>
 
@@ -38,19 +41,19 @@ En la interfaz gráfica, se puede seleccionar el tamaño del modelo de Whisper a
 
 ---
 
-## Apoya el proyecto
-
-Tanto si utilizas este proyecto como si has aprendido algo de él o simplemente te gusta, considera la posibilidad de apoyarlo invitándome a un café, para que pueda dedicar más tiempo a proyectos de código abierto como éste :)
-
-<a href="https://www.buymeacoffee.com/pavloh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
----
-
 ## Créditos
 
 Se utiliza como modelo de lenguaje [Alpaca-LoRA](https://github.com/tloen/alpaca-lora). El código utiliza la librería de Transformers de Hugging Face para el modelo. 
 También se utiliza la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
 La interfaz gráfica es creada utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
+
+---
+
+## Apoya el proyecto
+
+Tanto si utilizas este proyecto como si has aprendido algo de él o simplemente te gusta, considera la posibilidad de apoyarlo invitándome a un café, para que pueda dedicar más tiempo a proyectos de código abierto como éste :)
+
+<a href="https://www.buymeacoffee.com/pavloh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
 ## Licencia
