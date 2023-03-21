@@ -23,13 +23,14 @@ Demo que combina Whisper para el reconocimiento de voz y Google TTS para la sín
 - Síntesis de voz con Google Text-to-Speech
 - Interfaz gráfica mediante gradio
 - Historial de conversaciones disponible
+- Función de reinicio de conversación [WIP]
 
 ## TODO 📑
 
 - Incluir modelos de lenguaje adicionales, como gpt-j-6B
 - Utilizar una inteligencia artificial avanzada para la síntesis de voz
 - Optimizar el código y asegurar su compatibilidad en diferentes plataformas, incluyendo Windows, Linux, etc.
-- Agregar configuraciones adicionales a la interfaz gráfica, como vista previa, ajuste de temperatura para la generación de texto, botón para restablecer la conversación/historial, soporte para adjuntar y reconocer imágenes, etc.
+- Agregar configuraciones adicionales a la interfaz gráfica, como vista previa, ajuste de temperatura para la generación de texto, soporte para adjuntar y reconocer imágenes, etc.
 - Agregar generación de imágenes como una funcionalidad adicional mediante Stable Diffusion
 
 ---
