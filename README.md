@@ -1,4 +1,4 @@
-![Demo Preview](https://i.imgur.com/PDROk3I.png)
+![Demo Preview](https://i.imgur.com/zO3x80I.jpg)
 
 <div align="center">
 
@@ -18,20 +18,20 @@ Demo que combina Whisper para el reconocimiento de voz y Google TTS para la sín
 
 ## Características 📃
 
-- Reconocimiento de voz mediante Whisper
-- Modelo de lenguaje basado en LLaMa 7B
+- Reconocimiento de voz mediante Whisper con elección de tamaño
+- Modelo de lenguaje basado en LLaMa 7B configurable desde la interfaz
 - Síntesis de voz con Google Text-to-Speech
 - Interfaz gráfica mediante gradio
 - Historial de conversaciones disponible
-- Función de reinicio de conversación [WIP]
+- Función de reinicio de conversación
 
 ## TODO 📑
 
 - Incluir modelos de lenguaje adicionales, como gpt-j-6B
 - Utilizar una inteligencia artificial avanzada para la síntesis de voz
 - Optimizar el código y asegurar su compatibilidad en diferentes plataformas, incluyendo Windows, Linux, etc.
-- Agregar configuraciones adicionales a la interfaz gráfica, como vista previa, ajuste de temperatura para la generación de texto, soporte para adjuntar y reconocer imágenes, etc.
-- Agregar generación de imágenes como una funcionalidad adicional mediante Stable Diffusion
+- Agregar configuraciones adicionales a la interfaz gráfica, como vista previa, soporte para adjuntar y reconocer imágenes*, etc.
+- *Agregar generación de imágenes como una funcionalidad adicional mediante Stable Diffusion
 
 ---
 
@@ -40,7 +40,7 @@ Demo que combina Whisper para el reconocimiento de voz y Google TTS para la sín
 Para utilizar la demo, es necesario tener acceso a un micrófono.
 Al ejecutar todo el código, se abrirá una interfaz gráfica en la que se puede hablar en el micrófono y obtener una respuesta de la IA Alpaca-LoRA.
 
-En la interfaz gráfica, se puede seleccionar el tamaño del modelo de Whisper a utilizar (tiny, base, small, medium, large). El tamaño del modelo afecta el tiempo de respuesta de la IA y la calidad de la respuesta generada.
+En la interfaz gráfica, se puede seleccionar el tamaño del modelo de Whisper a utilizar (tiny, base, small, medium, large). El tamaño del modelo afecta el tiempo de respuesta de la IA y la calidad de la respuesta generada. Se puede cambiar manualmente la temperatura del modelo Alpaca-Lora además de poder restablecer la conversación.
 
 ---
 
