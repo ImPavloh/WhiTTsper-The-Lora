@@ -16,23 +16,25 @@ Demo que combina Whisper para el reconocimiento de voz y Google TTS para la sín
 <a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://i.imgur.com/0j68Rhz.png" alt="Test" width="150"></a>
 </div>
 
-## Características
+## Características 📃
+
 - Reconocimiento de voz mediante Whisper
 - Modelo de lenguaje basado en LLaMa 7B
 - Síntesis de voz con Google Text-to-Speech
-- Interfaz gráfica con gradio
-- Historial de conversación
+- Interfaz gráfica mediante gradio
+- Historial de conversaciones disponible
 
-## TODO
-- Agregar más modelos de lenguaje (ej. gpt-j-6B)
-- Usar una IA avanzada para la síntesis de voz
-- Optimizar y hacer el código compatible en distintas plataformas (ej. Windows, Linux, etc.)
-- Modificar la interfaz gráfica añadiendo configuraciones extra (ej. vista previa, ajustar la temperatura para la generación de texto, botón para restablecer la conversación/historial, adjuntar imgs y reconocerlas, etc.)
-- Generación de imágenes
+## TODO 📑
+
+- Incluir modelos de lenguaje adicionales, como gpt-j-6B
+- Utilizar una inteligencia artificial avanzada para la síntesis de voz
+- Optimizar el código y asegurar su compatibilidad en diferentes plataformas, incluyendo Windows, Linux, etc.
+- Agregar configuraciones adicionales a la interfaz gráfica, como vista previa, ajuste de temperatura para la generación de texto, botón para restablecer la conversación/historial, soporte para adjuntar y reconocer imágenes, etc.
+- Agregar generación de imágenes como una funcionalidad adicional mediante Stable Diffusion
 
 ---
 
-## Uso
+## Uso 📒
 
 Para utilizar la demo, es necesario tener acceso a un micrófono.
 Al ejecutar todo el código, se abrirá una interfaz gráfica en la que se puede hablar en el micrófono y obtener una respuesta de la IA Alpaca-LoRA.
@@ -41,22 +43,22 @@ En la interfaz gráfica, se puede seleccionar el tamaño del modelo de Whisper a
 
 ---
 
-## Créditos
+## Créditos 📜
 
-Se utiliza como modelo de lenguaje [Alpaca-LoRA](https://github.com/tloen/alpaca-lora). El código utiliza la librería de Transformers de Hugging Face para el modelo. 
-También se utiliza la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
-La interfaz gráfica es creada utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
+Se utiliza como modelo de lenguaje [Alpaca-LoRA](https://github.com/tloen/alpaca-lora). Se emplea la librería de Transformers de Hugging Face para el modelo. 
+También se usa la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
+La interfaz gráfica es construida utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
 
 ---
 
-## Apoya el proyecto
+## Apoya el proyecto ☕
 
-Tanto si utilizas este proyecto como si has aprendido algo de él o simplemente te gusta, considera la posibilidad de apoyarlo invitándome a un café, para que pueda dedicar más tiempo a proyectos de código abierto como éste :)
+Si te gusta este proyecto o te ha ayudado en alguna forma, considera invitarme a un [café](https://www.buymeacoffee.com/pavloh) como forma de apoyo. De esta manera, podré dedicar más tiempo a proyectos de código abierto como éste y mejorarlos aún más :)
 
 <a href="https://www.buymeacoffee.com/pavloh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
-## Licencia
+## Licencia 📃
 >Puedes consultar la licencia completa [aquí](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
 
 Este proyecto está licenciado bajo los términos de la licencia **MIT**.
