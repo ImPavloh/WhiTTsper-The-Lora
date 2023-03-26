@@ -1,4 +1,4 @@
-![Demo Preview](https://i.imgur.com/zO3x80I.jpg)
+![Demo Preview](https://i.imgur.com/VVpYeb9.png)
 
 <div align="center">
 
@@ -9,56 +9,54 @@
 
 # WhiTTsper the Lora
 
-Demo que combina Whisper para el reconocimiento de voz y Google TTS para la síntesis de voz para interactuar junto Alpaca-LoRA.
+Demo that combines Whisper for voice recognition and Google TTS for voice synthesis to interact with Alpaca-LoRA.
 
 
-### Pruébalo desde **Google Colab**
+### Try it on **Google Colab**
 <a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://i.imgur.com/0j68Rhz.png" alt="Test" width="150"></a>
 </div>
 
-## Características 📃
+## Features 📃
 
-- Reconocimiento de voz mediante Whisper con elección de tamaño
-- Modelo de lenguaje basado en LLaMa 7B configurable desde la interfaz
-- Síntesis de voz con Google Text-to-Speech
-- Interfaz gráfica mediante gradio
-- Historial de conversaciones disponible
-- Función de reinicio de conversación
+- Voice recognition using Whisper with choice of size
+- LLaMa 7B language model configurable from the interface
+- Voice synthesis using Google Text-to-Speech
+- Graphical interface using gradio
+- Conversation history available
+- Conversation reset function
 
 ## TODO 📑
 
-- Mejorar modelo de lenguaje
-- Utilizar una inteligencia artificial avanzada para la síntesis de voz
-- Optimizar el código y asegurar su compatibilidad en diferentes plataformas, incluyendo Windows, Linux, etc.
-- Agregar generación y reconocimiento de imágenes como una funcionalidad adicional mediante Stable Diffusion
+- Improve language model
+- Use advanced AI for voice synthesis
+- Optimize the code and ensure its compatibility on different platforms, including Windows, Linux, etc.
+- Add image generation and recognition as additional functionality using Stable Diffusion
 
 ---
 
-## Uso 📒
+## Usage 📒
 
-Para utilizar la demo, es necesario tener acceso a un micrófono.
-Al ejecutar todo el código, se abrirá una interfaz gráfica en la que se puede hablar en el micrófono y obtener una respuesta de la IA Alpaca-LoRA.
+To use the demo, you need to have access to a microphone. When running all the code, a graphical interface will open in which you can speak into the microphone and get a response from the Alpaca-LoRA AI.
 
-En la interfaz gráfica, se puede seleccionar el tamaño del modelo de Whisper a utilizar (tiny, base, small, medium, large). El tamaño del modelo afecta el tiempo de respuesta de la IA y la calidad de la respuesta generada. Se puede cambiar manualmente la temperatura del modelo Alpaca-Lora además de poder restablecer la conversación.
-
----
-
-## Créditos 📜
-
-Se utiliza como modelo de lenguaje [Alpaca-LoRA](https://github.com/tloen/alpaca-lora). Se emplea la librería de Transformers de Hugging Face para el modelo. 
-También se usa la tecnología de reconocimiento de voz [Whisper](https://github.com/openai/whisper) de OpenAI y la tecnología de síntesis de voz [Google Text-to-Speech](https://github.com/pndurette/gTTS).
-La interfaz gráfica es construida utilizando la librería [Gradio](https://github.com/gradio-app/gradio).
+In the graphical interface, you can select the size of the Whisper model to use (tiny, base, small, medium, large). The model size affects the response time of the AI and the quality of the generated response. You can manually change the temperature of the Alpaca-Lora model and reset the conversation.
 
 ---
 
-## Apoya el proyecto ☕
+## Credits 📜
+[Alpaca-LoRA](https://github.com/tloen/alpaca-lora) is used as the language model. The Transformers library from Hugging Face is used for the model.
+[Whisper](https://github.com/openai/whisper) voice recognition technology from OpenAI and [Google Text-to-Speech](https://github.com/pndurette/gTTS) voice synthesis technology are also used.
+The graphical interface is built using the [Gradio library](https://github.com/gradio-app/gradio).
 
-Si te gusta este proyecto o te ha ayudado en alguna forma, considera invitarme a un [café](https://www.buymeacoffee.com/pavloh) como forma de apoyo. De esta manera, podré dedicar más tiempo a proyectos de código abierto como éste y mejorarlos aún más :)
+---
+
+## Support the project ☕
+
+If you like this project or have been helped in some way, consider buying me a [coffee](https://www.buymeacoffee.com/pavloh) as a form of support. This way, I can dedicate more time to open source projects like this and improve them even further :)
 
 <a href="https://www.buymeacoffee.com/pavloh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
-## Licencia 📃
->Puedes consultar la licencia completa [aquí](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
+## License 📃
+> You can view the full license [here](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
 
-Este proyecto está licenciado bajo los términos de la licencia **MIT**.
+This project is licensed under the terms of the **MIT** license.
