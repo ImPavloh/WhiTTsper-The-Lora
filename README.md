@@ -60,3 +60,6 @@ If you like this project or have been helped in some way, consider buying me a [
 > You can view the full license [here](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
+
+---
+*This project has been deprioritized as there are better alternatives available and Im choosing to focus on my other personal projects*
