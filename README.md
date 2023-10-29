@@ -13,10 +13,10 @@ Demo that combines Whisper for voice recognition and Google TTS for voice synthe
 
 
 ### Try it on **Google Colab**
-<a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://i.imgur.com/0j68Rhz.png" alt="Test" width="150"></a>
+<a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252"></a>
 </div>
 
-## Features 📃
+## 📃 Features
 
 - Voice recognition using Whisper with choice of size
 - LLaMa 7B language model configurable from the interface
@@ -25,7 +25,7 @@ Demo that combines Whisper for voice recognition and Google TTS for voice synthe
 - Conversation history available
 - Conversation reset function
 
-## TODO 📑
+## 📑 TODO
 
 - Improve language model
 - Use advanced AI for voice synthesis
@@ -34,7 +34,7 @@ Demo that combines Whisper for voice recognition and Google TTS for voice synthe
 
 ---
 
-## Usage 📒
+## 📒 Usage
 
 To use the demo, you need to have access to a microphone. When running all the code, a graphical interface will open in which you can speak into the microphone and get a response from the Alpaca-LoRA AI.
 
@@ -42,21 +42,21 @@ In the graphical interface, you can select the size of the Whisper model to use 
 
 ---
 
-## Credits 📜
+## 📜 Credits
 [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) is used as the language model. The Transformers library from Hugging Face is used for the model.
 [Whisper](https://github.com/openai/whisper) voice recognition technology from OpenAI and [Google Text-to-Speech](https://github.com/pndurette/gTTS) voice synthesis technology are also used.
 The graphical interface is built using the [Gradio library](https://github.com/gradio-app/gradio).
 
 ---
 
-## Support the project ☕
+## ☕ Support the project
 
 If you like this project or have been helped in some way, consider buying me a [coffee](https://www.buymeacoffee.com/pavloh) as a form of support. This way, I can dedicate more time to open source projects like this and improve them even further :)
 
 <a href="https://www.buymeacoffee.com/pavloh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
-## License 📃
+## 📃 License
 > You can view the full license [here](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
