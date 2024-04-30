@@ -16,6 +16,9 @@ Demo that combines Whisper for voice recognition and Google TTS for voice synthe
 <a href="https://colab.research.google.com/drive/11MHiNlhQ0ZSqKVl0Fniu085bkQRdJX9E?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252"></a>
 </div>
 
+> [!WARNING]  
+> This project is significantly outdated and may no longer operate as expected.
+> 
 ## 📃 Features
 
 - Voice recognition using Whisper with choice of size
@@ -27,10 +30,10 @@ Demo that combines Whisper for voice recognition and Google TTS for voice synthe
 
 ## 📑 TODO
 
-- Improve language model
-- Use advanced AI for voice synthesis
-- Optimize the code and ensure its compatibility on different platforms, including Windows, Linux, etc.
-- Add image generation and recognition as additional functionality using Stable Diffusion
+- [ ] Improve language model
+- [ ] Use advanced AI for voice synthesis
+- [ ] Optimize the code and ensure its compatibility on different platforms, including Windows, Linux, etc.
+- [ ] Add image generation and recognition as additional functionality using Stable Diffusion
 
 ---
 
@@ -44,7 +47,9 @@ In the graphical interface, you can select the size of the Whisper model to use 
 
 ## 📜 Credits
 [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) is used as the language model. The Transformers library from Hugging Face is used for the model.
+
 [Whisper](https://github.com/openai/whisper) voice recognition technology from OpenAI and [Google Text-to-Speech](https://github.com/pndurette/gTTS) voice synthesis technology are also used.
+
 The graphical interface is built using the [Gradio library](https://github.com/gradio-app/gradio).
 
 ---
@@ -60,6 +65,3 @@ If you like this project or have been helped in some way, consider buying me a [
 > You can view the full license [here](https://github.com/ImPavloh/WhiTTsper-The-Lora/blob/master/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
-
----
-*This project has been deprioritized as there are better alternatives available and Im choosing to focus on my other personal projects*
